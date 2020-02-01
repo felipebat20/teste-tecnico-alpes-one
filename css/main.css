@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url(//db.onlinewebfonts.com/c/93383e2216fcd1de37a850bf5d100898?family=Foundry+Monoline);
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: Foundry Monoline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.body {
+    width: 100%;
+}
+
+.header1 {
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.menu-alto {
+    display: flex;
+    flex-direction: row;
+    padding: 3% 4% 1% 4%;
+    margin-bottom: 10px;
+}
+
+.icones {
+    margin: 0px 14%;
+}
+
+.portal {
+    width: 30px;
+    height: 26px;
+    float: left;
+    background: url('../img/home-button.png') center center/30px no-repeat;
+    font-size: 0;
+}
+
+.local {
+    width: 18px;
+    height: 26px;
+    float: left;
+    background: url('../img/place-logo.png') center center/18px no-repeat;
+    font-size: 0;
+}
+
+.fale-conosco {
+    width: 24px;
+    height: 19px;
+    float: left;
+    margin-top: 4px;
+    background: url('../img/black-envelope@2x.png') center center/24px no-repeat;
+    font-size: 0;
+}
+
+.logo {
+    margin: 15px auto;
+    padding-top: 10px;
+    width: 266px;
+    height: 70px;
+}
+
+.number {
+    padding: 3% 4%;
+    text-align: center;
+}
+
+.number h4 {
+    text-transform: uppercase;
+    font-style: italic;
+}
