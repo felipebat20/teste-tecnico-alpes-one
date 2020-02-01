@@ -43,7 +43,12 @@ img {
 }
 
 .icones {
-    margin: 0px 14%;
+    margin: 0px auto;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .portal {
@@ -72,18 +77,295 @@ img {
 }
 
 .logo {
-    margin: 15px auto;
+    margin: 3% auto;
     padding-top: 10px;
     width: 266px;
     height: 70px;
 }
 
 .number {
-    padding: 3% 4%;
+    margin: 9% auto 5%;
     text-align: center;
 }
 
 .number h4 {
     text-transform: uppercase;
     font-style: italic;
+}
+
+.banner {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner img {
+    margin: 0 auto;
+}
+
+.contato {
+    width: 90%;
+    background-color: #EEEEEE;
+    margin: 8% auto;
+    padding: 5%;
+}
+
+.contato input {
+    border: 1px solid #C5C5C5;
+    border-radius: 4%;
+    width: 100%;
+    height: 35px;
+    margin: 2px auto;
+    background: url('../img/black-envelope@2x.png') left 3% center/24px no-repeat;
+    padding-left: 10%;
+}
+
+.titulo-form {
+    background: url('../img/phone-icon.png') left center/39px no-repeat;
+    padding-left: 47px;
+}
+
+.titulo-form h2 {
+    color: #DF0209;
+    font-weight: 500;
+    font-size: 22pt;
+    line-height: 1.0;
+}
+
+.titulo-form h3 {
+    font-size: 14pt;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+input.button {
+    background-color: #1CB72A;
+    background-image: none;
+    color: #fff;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2% 4% 3%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.secao1 h1 {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 24pt;
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao1 img {
+    margin: 5% auto;
+}
+
+.secao1 p {
+    margin: 5% auto;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.banner-2 {
+    position: relative;
+    height: 415px;
+    background: url('../img/banner-2-mobile.png') center center/100% no-repeat;
+}
+
+.text-banner-2 {
+    position: absolute;
+    margin-top: auto;
+    bottom: 0px;
+}
+
+.banner-2 h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24pt;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.banner-2 p {
+    text-align: center;
+    color: #fff;
+    font-size: 16pt;
+}
+
+.carousel {
+    margin: 5% auto;
+    text-align: center;
+    position: relative;
+}
+
+.carousel h3 {
+    margin-top: 3%;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+.carousel p {
+    font-size: 14pt;
+}
+
+.carousel img {
+    width: 100%;
+    border: 1px solid #C5C5C5;
+    padding: 2%;
+    position: relative;
+}
+
+ul.slick-dots {
+    display: flex;
+    flex-direction: row;
+}
+
+.slick-dots li {
+    margin: 0 auto;
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #D5D5D5;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    background-color: #808080;
+}
+
+button.slick-next {
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    font-size: 0pt;
+    border-radius: 20px;
+    background: #D5D5D5 url('../img/keyboard-right-arrow.png') center center/13px no-repeat;
+}
+
+button.slick-prev {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    font-size: 0pt;
+    border-radius: 20px;
+    background: #D5D5D5 url('../img/chevron-right.png') center center/13px no-repeat;
+}
+
+.secao2 {
+    text-align: center;
+    margin-top: 10%;
+    padding: 4% auto;
+}
+
+.secao2 h2 {
+    font-size: 24pt;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.secao2 p {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.secao2-lancamentos {
+    border: 1px solid #C5C5C5;
+    padding: 3% 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+.secao2 img {
+    display: flex;
+    margin-left: 5%;
+}
+
+.secao2 button.seta {
+    width: 21px;
+    height: 13px;
+    background: url('../img/keyboard-right-arrow-button.png');
+    margin: auto;
+}
+
+.secao2 button.conheca-mais {
+    margin: 3% auto;
+    width: 100%;
+    padding: 3% 4%;
+    border: 1px solid #C5C5C5;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+
+.footer1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    padding: 5% 4%;
+    margin-top: 5%;
+}
+
+.atendimento {
+    border: 1px solid #DF0209;
+    border-radius: 3%;
+    margin: 3% 20%;
+    font-size: 16pt;
+    padding: 3% 1%;
+    line-height: 1.0;
+    background-color: #fff;
+}
+
+.atendimento h5 {
+    margin-bottom: 0px;
+}
+
+.atendimento h4 {
+    margin-bottom: 0px;
+}
+
+.footer1 h2 {
+    font-size: 18pt;
+    padding: 3% 4%;
+    margin: 3% 4%;
+}
+
+.redes-sociais img {
+    padding: auto 3%;
+}
+
+.footer-2 {
+    text-align: center;
+    padding: 5% auto;
+}
+
+.footer-2 img {
+    margin: 5% auto;
+}
+
+.ibama {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    padding: auto auto;
+    margin: 1% auto;
+}
+
+.ibama p {
+    display: flex;
+    margin: auto 5%;
+    font-size: 14pt;
 }
