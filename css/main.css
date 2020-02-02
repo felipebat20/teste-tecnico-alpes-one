@@ -1,5 +1,10 @@
 @charset "UTF-8";
 @import url(//db.onlinewebfonts.com/c/93383e2216fcd1de37a850bf5d100898?family=Foundry+Monoline);
+@font-face {
+    src: url('../fonts/Foundry\ Monoline\ W04\ Regular.ttf');
+    font-family: Foundry Monoline;
+}
+
 
 /* RESET */
 
