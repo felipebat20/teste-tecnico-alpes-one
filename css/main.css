@@ -18,12 +18,20 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
 
 img {
     max-width: 100%;
+}
+
+.web {
+    display: none;
 }
 
 .body {
@@ -120,6 +128,22 @@ main {
     padding-left: 10%;
 }
 
+.contato input.perfil-in {
+    background: url('../img/perfil-icon.png') left 3% center/24px no-repeat;
+}
+
+.contato input.phone-in {
+    background: url('../img/call-answer.png') left 3% center/24px no-repeat;
+}
+
+.contato input.clock-in {
+    background: url('../img/clock-circular-outline.png') left 3% center/24px no-repeat;
+}
+
+.contato input.unid-in {
+    background: url('../img/facebook-placeholder-for-locate-places-on-maps.png') left 3% center/20px no-repeat;
+}
+
 .titulo-form {
     background: url('../img/phone-icon.png') left center/39px no-repeat;
     padding-left: 47px;
@@ -151,6 +175,10 @@ input.button {
     vertical-align: middle;
 }
 
+.imagens {
+    display: none;
+}
+
 .secao1 h1 {
     margin: 0 auto;
     text-align: center;
@@ -164,8 +192,12 @@ input.button {
     flex-direction: column;
 }
 
-.secao1 img {
+.secao1 img.img-mobile {
     margin: 5% auto;
+}
+
+.secao3 {
+    display: none;
 }
 
 .secao1 p {
@@ -198,6 +230,10 @@ input.button {
     text-align: center;
     color: #fff;
     font-size: 16pt;
+}
+
+.carousel-web {
+    display: none;
 }
 
 .carousel {
@@ -318,6 +354,38 @@ button.slick-prev {
     margin-top: 5%;
 }
 
+.footer1 .concessionaria {
+    border: 1px solid #DF0209;
+    border-radius: 3%;
+    margin: 3% 20%;
+    text-align: left;
+    font-size: 16pt;
+    padding: 3% 0 3% 10%;
+    background: url('../img/place-logo.png') left center no-repeat;
+    background-position: left 3% center;
+    line-height: 1.0;
+    background-color: #fff;
+}
+
+.concessionaria:hover {
+    text-decoration: none;
+}
+
+.concessionaria h3 {
+    font-size: 18pt;
+    color: #DF0209;
+    margin-bottom: 0px;
+    padding: 0 3% 0 0;
+}
+
+.concessionaria h4 {
+    text-transform: none;
+    font-weight: bold;
+    color: #707070;
+    font-size: 14pt;
+    margin-bottom: 0px;
+}
+
 .atendimento {
     border: 1px solid #DF0209;
     border-radius: 3%;
@@ -368,4 +436,264 @@ button.slick-prev {
     display: flex;
     margin: auto 5%;
     font-size: 14pt;
+}
+
+
+/* BreakPoints */
+
+
+/* SMALL DEVICES - IPHONE 6*/
+
+@media screen and (min-width: 768px) {
+    .icones {
+        width: 100%;
+    }
+    .menu-alto {
+        padding: 1% 2% 1% 1%;
+    }
+    .portal {
+        font-size: 11pt;
+        width: 100%;
+        background-position: left 9% center;
+        padding: 3% 12%;
+        text-align: center;
+        color: #707070;
+    }
+    .local {
+        font-size: 11pt;
+        width: 100%;
+        background-position: left 3% center;
+        padding: 3% 0% 1%;
+        text-align: center;
+        color: #707070;
+    }
+    .fale-conosco {
+        font-size: 11pt;
+        width: 100%;
+        background-position: left 20% center;
+        padding: 1% 10%;
+        text-align: center;
+        color: #707070;
+    }
+    .logo {
+        float: left;
+    }
+    .number {
+        float: right;
+        margin: 3% auto;
+    }
+    .banner {
+        width: 100%;
+    }
+    .contato {
+        width: 75%;
+    }
+    .footer1-web {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer1 .concessionaria {
+        margin: 3% auto;
+        width: 44%;
+    }
+    .atendimento {
+        margin: 3% auto;
+        width: 44%;
+    }
+    .footer1 h2 {
+        font-size: 22pt;
+    }
+    .footer1 .redes-sociais img {
+        padding: 1% 2%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu-alto {
+        margin: 0 5%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .portal-web {
+        width: 65%!important;
+    }
+    .local-web {
+        width: 20%!important;
+    }
+    .fale-conosco-web {
+        width: 15%!important;
+    }
+    .portal {
+        padding: 0.75% 3%;
+        background-size: 3%;
+        text-align: left;
+        background-position: left center;
+    }
+    .local {
+        padding: 2% 0 0.75% 7%;
+        background-size: 6%;
+        text-align: left;
+        background-position: left center;
+    }
+    .fale-conosco {
+        padding: 0.75% 2% 0.75% 10%;
+        background-size: 10%;
+        text-align: left;
+        background-position: left center;
+    }
+    .logo {
+        margin: 1% auto;
+    }
+    .banner {
+        height: 350px;
+        width: 100%;
+        background: url('../img/banner-web.png') center center;
+        margin-bottom: 4%;
+    }
+    .banner img {
+        display: none;
+    }
+    .contato {
+        width: 25%;
+        position: absolute;
+        top: 20%;
+        right: 3%;
+        margin: 3% auto;
+        padding: 3% 2%;
+    }
+    .contato input {
+        padding-left: 12%;
+    }
+    .secao1 h1 {
+        text-align: left;
+        margin: 0;
+    }
+    .secao1 img.img-mobile {
+        display: none;
+    }
+    .secao3 {
+        display: flex;
+        flex-direction: row;
+        margin: 4% 0;
+        width: 90%;
+    }
+    .secao3 img {
+        width: 70%;
+        height: 70%;
+        margin: auto;
+    }
+    .secao3 .imagens {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .secao3 .imagens img {
+        padding: 1%;
+        margin: 1%;
+        border: 1px solid #C5C5C5;
+    }
+    .secao1 p {
+        margin: 1% 0 5% 0;
+        text-align: left;
+        width: 80%;
+        font-size: 14pt;
+    }
+    .banner-2 {
+        background: url('../img/banner-2-web.png') center center/100% no-repeat;
+    }
+    .text-banner-2 {
+        width: 100%;
+    }
+    .banner-2 h2 {
+        text-align: left;
+        width: 100%;
+    }
+    .banner-2 p {
+        text-align: left;
+        width: 100%;
+    }
+    .carousel {
+        display: none;
+    }
+    .carousel-web {
+        display: block;
+        width: 90%;
+        margin: 5% 0;
+    }
+    .carousel-web .slide-web-1 {
+        height: 100%;
+        margin: 0.5%;
+    }
+    .carousel-web .slide-web-1 img {
+        width: 100%;
+    }
+    ul.slick-dots {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .slick-dots li {
+        margin: 0 2%;
+    }
+    .slide-web-1 h3 {
+        font-size: 16pt;
+        font-style: italic;
+        padding: 1% 0;
+    }
+    .secao2 {
+        margin-top: 5%;
+        width: 90%;
+        text-align: left;
+    }
+    button.seta {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    .web {
+        display: flex;
+        flex-direction: row;
+    }
+    .secao2-lancamentos {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin: 1%;
+    }
+    .secao2-lancamentos p {
+        font-size: 12pt;
+        text-align: center;
+    }
+    .secao2-lancamentos img {
+        width: 90%;
+    }
+    .secao2-lancamentos button.conheca-mais {
+        padding: 2% 4%;
+        font-size: 12pt;
+    }
+    .footer1 {
+        padding: 2%;
+    }
+    .footer1 .concessionaria {
+        width: auto;
+        padding: 1% 1% 1% 4%;
+        margin: auto 3% auto auto;
+    }
+    .footer1 .atendimento {
+        width: auto;
+        padding: 1% 2%;
+        margin: auto auto auto 3%;
+    }
+    .footer1 h2 {
+        margin: 0 auto;
+    }
+    .footer-2 img {
+        margin: 2% auto;
+    }
+    .logo-bottom {
+        display: none;
+    }
 }
